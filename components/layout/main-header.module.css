@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+.headerContainer {
+  width: 100%;
+  height: 55px;
+  background: #1F2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerContainer nav ul li {
+  color: white;
+  font-weight: bolder;
+  display: inline-block;
+  list-style: none;
+  font-size: 2rem;
+  padding: 0 10px;
+  margin: 0 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.headerContainer nav ul li:after {
+  content: '';
+  width: 0;
+  height: 3px;
+  background:#ffde21;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.headerContainer nav ul li:hover::after {
+  width: 100%;
+}

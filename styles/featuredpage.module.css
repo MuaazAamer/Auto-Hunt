@@ -1,0 +1,30 @@
+/* Container for TypeFilter components */
+.pageheader{
+  color: black;
+  text-align: center;
+}
+.typeFilterRow {
+    justify-content: center;
+    display: flex; /* Use flexbox to align the TypeFilter components in a row */
+    gap: 20px; /* Add space between each TypeFilter component */
+    margin-bottom: 30px; /* Space between TypeFilter row and the car list */
+    flex-wrap: wrap; /* Allow wrapping in case the screen size is too small */
+}
+/* Basic Button Styling */
+.filterbutton {
+    background-color: white; /* Blue background */
+    border: 1px solid transparent; /* No border */
+    padding: 10px 15px; /* Padding */
+    font-size: 16px; /* Font size */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth transition for color and transform */
+    margin: 0 8px; /* Horizontal spacing between buttons */
+  }
+  
+  /* Hover Effect */
+  .filterbutton:hover {
+    background-color:  #1F2937; /* Darker blue background */
+    transform: translateY(-2px); /* Slightly move the button up */
+  }
+  

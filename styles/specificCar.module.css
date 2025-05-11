@@ -1,0 +1,113 @@
+.container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .imageContainer {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
+  
+  .button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: rgba(205, 204, 204, 0.826);
+  }
+  
+  .prevButton {
+    left: 10px; /* Position the Previous button on the left */
+  }
+  
+  .nextButton {
+    right: 10px; /* Position the Next button on the right */
+  }
+  
+  .button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Styling for h1 */
+  .carName {
+    font-size: 3rem; /* Bigger font size */
+    font-weight: bold; /* Emphasize the font */
+    color: #1F2937; /* Set text color to yellow */
+    margin: 20px 0; /* Add some spacing */
+    text-align: center; /* Center-align the heading */
+  }
+  
+  /* Styling for h2 */
+  .infoBox {
+    font-size: 1.5rem; /* Medium font size */
+    font-weight: normal; /* Standard font weight */
+    color: rgb(0, 0, 0); /* Text color black */
+    padding: 10px ; /* Add padding inside the box */
+  }
+  .box{
+    text-align: left;
+    background-color: rgba(209, 205, 205, 0.954); /* Gray background */
+    border-radius: 15px; /* Curved borders */
+    width: 70%; /* Rectangle width covers 70% of the screen */
+    margin: 20px auto; /* Center the rectangle horizontally */
+    padding: 20px; /* Add padding inside the box */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better aesthetics */
+  }
+  .table {
+  width: 100%; /* Table spans full width of its container */
+  border-collapse: collapse; /* Remove gaps between cells */
+  margin: 0 auto; /* Center the table */
+  text-align: left; /* Left-align text in cells */
+  font-size: 1.2rem; /* Adjust font size */
+}
+
+.table td {
+  padding: 10px 20px; /* Add space inside each cell */
+  border: 1px solid #ccc; /* Add light gray borders between cells */
+  color: rgb(2, 0, 141);
+  font-weight: bold;
+  font-size: larger;
+}
+
+.table tr:nth-child(even) {
+  background-color: rgba(209, 205, 205, 0.5); /* Light gray background for alternating rows */
+}
+
+.table tr:hover {
+  background-color: rgba(209, 205, 205, 0.8); /* Highlight row on hover */
+}
+
+.table td:first-child {
+  font-weight: bold; /* Make the first column bold */
+  color: #333; /* Dark text color for labels */
+}
+.colorsRow {
+  display: flex;
+  gap: 10px; /* Space between color circles */
+  align-items: center;
+}
+
+.colorCircle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%; /* Make it a circle */
+  border: 2px solid #ccc; /* Optional: Add a border for better visibility */
+  display: inline-block;
+}

@@ -1,0 +1,93 @@
+.form {
+    background: linear-gradient(135deg, #000, #1a1a1a);
+    border: 2px solid #ff0000;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    color: #fff;
+    font-family: "Arial", sans-serif;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #ffcc00;
+    font-weight: bold;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ff0000;
+    border-radius: 8px;
+    background: #333;
+    color: #ffcc00;
+    font-size: 1rem;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .input:focus {
+    border-color: #ffcc00;
+    outline: none;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background: #ff0000;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background: #ffcc00;
+    color: #000;
+  }
+  
+  .addButton {
+    background: #1a1a1a;
+    border: 2px solid #ffcc00;
+    color: #ffcc00;
+    font-size: 0.9rem;
+    margin-left: 8px;
+  }
+  
+  .addButton:hover {
+    background: #ffcc00;
+    color: #000;
+  }
+  
+  .imageInputGroup {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .imageInput {
+    width: 32%;
+  }
+  
+  @media (max-width: 600px) {
+    .form {
+      padding: 10px;
+    }
+  
+    .button {
+      width: 100%;
+    }
+  
+    .imageInput {
+      width: 100%;
+      margin-bottom: 8px;
+    }
+  }
+  
